@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-03T12:29:44 IST" name="Default suite" finished-at="2023-08-03T12:29:47 IST" duration-ms="2638">
+    <groups>
+    </groups>
+    <test started-at="2023-08-03T12:29:44 IST" name="Default test" finished-at="2023-08-03T12:29:47 IST" duration-ms="2638">
+      <class name="APIRestAssured">
+        <test-method is-config="true" signature="setup()[pri:0, instance:APIRestAssured@38c6f217]" started-at="2023-08-03T12:29:44 IST" name="setup" finished-at="2023-08-03T12:29:44 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewUser()[pri:1, instance:APIRestAssured@38c6f217]" started-at="2023-08-03T12:29:44 IST" name="createNewUser" finished-at="2023-08-03T12:29:46 IST" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method signature="updateUser()[pri:2, instance:APIRestAssured@38c6f217]" started-at="2023-08-03T12:29:46 IST" name="updateUser" finished-at="2023-08-03T12:29:46 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="getUser()[pri:3, instance:APIRestAssured@38c6f217]" started-at="2023-08-03T12:29:46 IST" name="getUser" finished-at="2023-08-03T12:29:46 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="deleteUser()[pri:4, instance:APIRestAssured@38c6f217]" started-at="2023-08-03T12:29:46 IST" name="deleteUser" finished-at="2023-08-03T12:29:47 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:APIRestAssured@38c6f217]" started-at="2023-08-03T12:29:47 IST" name="tearDown" finished-at="2023-08-03T12:29:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- APIRestAssured -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
