@@ -13,6 +13,13 @@ public class CalenderDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://www.path2usa.com/travel-companions");
+
+
+
+
+
+
+
 		driver.manage().window().maximize();
 		driver.findElement(By.id("form-field-travel_from")).sendKeys("Bengaluru International Airport   (BLR) Bangalore");
 		driver.findElement(By.id("form-field-travel_to")).sendKeys("Chennai International Airport (MAA) Chennai");
