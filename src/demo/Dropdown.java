@@ -15,6 +15,11 @@ public class Dropdown {
 		System.setProperty("WebDriver.Chrome.Driver", "D://");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+
+
+
+
+
 // Static Dropdown box
 		WebElement staticdropdown=driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
         Select dropdown =new Select(staticdropdown);

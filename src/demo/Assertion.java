@@ -14,6 +14,11 @@ public class Assertion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
+
+
+
+
+
 	       WebDriver driver =new ChromeDriver();
 	       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	       driver.manage().window().fullscreen();	      
